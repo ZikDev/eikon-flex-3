@@ -28,7 +28,16 @@
 }
 
 /* 4. exercice-order-3 */
+.exercice-order-3 .container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
 
+.exercice-order-3 .element-red,
+.exercice-order-3 .element-blue {
+  order: 1;
+}
 
 /* 5. exercice-align-self-1*/
 
